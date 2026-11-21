@@ -21,3 +21,19 @@
 .booking-footnote{margin:13px 0 0}
 .booking-footnote a{color:#e6c77f;font-weight:700}
 @media(max-width:700px){.cleaning-promo-grid{grid-template-columns:1fr;gap:35px}.cleaning-poster{width:min(100%,390px);grid-row:1}.laundry-booking{padding:18px}.booking-fields{grid-template-columns:1fr}.booking-wide{grid-column:auto}.booking-submit{width:100%;justify-content:center}}
+
+/* Master portfolio launch-plan section */
+.company-plan{background:#08172a}
+.plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:28px}
+.plan-grid article{padding:25px;background:#102239;border:1px solid #2c435c;border-radius:10px}
+.plan-grid article>span{font-size:9px;letter-spacing:1.7px;color:#d9b96f;font-weight:700}
+.plan-grid h3{font:700 19px Manrope;margin:12px 0}
+.plan-grid p,.launch-phases p{font-size:12px;line-height:1.8;color:#aab8c8;margin:0}
+.launch-phases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:18px}
+.launch-phases>div{padding:19px;background:#0d2035;border-left:2px solid #d9b96f}
+.launch-phases b{font:700 10px Manrope;letter-spacing:1.5px;color:#e6c77f;display:block;margin-bottom:9px}
+.compliance-notice{margin-top:24px;padding:22px 24px;background:#201e1a;border:1px solid #725d35;border-radius:9px}
+.compliance-notice strong{font:700 13px Manrope;color:#f0cf7b}
+.compliance-notice p{font-size:12px;line-height:1.8;color:#d1c7b3;margin:7px 0 0}
+@media(max-width:850px){.plan-grid{grid-template-columns:1fr 1fr}.launch-phases{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.plan-grid,.launch-phases{grid-template-columns:1fr}.plan-grid article{padding:20px}}
